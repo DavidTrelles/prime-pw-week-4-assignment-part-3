@@ -70,6 +70,6 @@ function removeItem(item){
        return basket.splice(basket.indexOf(item),1)
     }
 }
-console.log("test remove item function", removeItem("pig"))
+console.log("test remove item function, should remove pig", removeItem("pig"))
 console.log("test remove item function should return null", removeItem("person"))
 console.log("testing to see item was removed" + ` basket is now ${basket}`)
